@@ -29,6 +29,14 @@
   h1 {
     @include nice-blue-header;
   }
+
+  .centered {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+  }
 }
 
 .blurb.pw-post-title {
