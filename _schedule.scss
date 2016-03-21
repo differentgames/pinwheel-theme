@@ -1,7 +1,11 @@
 .schedule-at-a-glance {
+
+  th {
+    background-color: $pinwheel-blue;
+    color: white;
+  }
   
   .time-listing {
-    color: gray;
     font-weight: normal;
   }
 
