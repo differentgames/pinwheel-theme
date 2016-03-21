@@ -1,8 +1,23 @@
 .schedule-controls {
   text-align: center;
+  padding: 2em;
+}
+
+.show-talks-label {
+  margin-right: 1em;
+}
+
+.full-schedule-btn {
+  display: block;
+  font-weight: bold;
 }
 
 .schedule-at-a-glance {
+
+  h3 {
+    font-weight: bolder;
+    font-size:2em;
+  }
 
   th {
     background-color: $pinwheel-blue;
@@ -15,6 +30,11 @@
 
   .session-link {
     color: $pinwheel-dark-blue;
+    font-weight: bold;
+  }
+
+  .session-link:hover {
+    text-decoration: underline;
   }
 
   .listed-talk {
