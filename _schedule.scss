@@ -41,3 +41,30 @@
     font-size: 0.5em;
   }
 }
+
+.full-schedule {
+
+  hr {
+    background: lightgray;
+  }
+
+  .session {
+    margin: 2em auto;
+  }
+
+  .session-time, .session-room {
+    display: inline-block;
+    background-color: $pinwheel-dark-blue;
+    padding: 0.25em;
+    color: white;
+    font-size:1em;
+    margin: 0;
+  }
+
+  .session-title {
+    font-weight: bolder;
+  }
+
+  .talk-content {
+  }
+}
