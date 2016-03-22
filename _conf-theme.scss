@@ -37,11 +37,17 @@
   }
 
   &.conf {
-    border-bottom: 10px solid $pinwheel-red;
+    border-bottom: 10px solid $pinwheel-dark-blue;
   }
 }
 
+.above-navbar {
+  border-top: 10px solid $pinwheel-red;
+  display:block;
+}
+
 .pw-footer {
+  border-top: 10px solid $pinwheel-red;
   background-color: $pinwheel-dark-blue;
 
   li {
