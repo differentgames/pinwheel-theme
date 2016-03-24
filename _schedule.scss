@@ -1,6 +1,10 @@
 .schedule-controls {
   text-align: center;
   padding: 2em;
+
+  .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+    background-color: $pinwheel-dark-blue;
+  }
 }
 
 .show-talks-label {
@@ -51,16 +55,53 @@
   }
 
   .session {
-    margin: 2em auto;
+    margin: 4em auto;
   }
 
-  .session-time, .session-room {
+  .session-time, .session-room,
+  .affective-play, .race-culture-games, .player-agency-mods-glitches, .video-games-in-latin-america, .video-games-and-indigenous-culture, .participatory-game-design, .accessible-game-design, .general  {
     display: inline-block;
     background-color: $pinwheel-dark-blue;
-    padding: 0.25em;
+    padding: 0.45em 0.5em;
     color: white;
     font-size:1em;
     margin: 0;
+    border: 2px solid $pinwheel-dark-blue;
+
+  }
+
+  .affective-play {
+    background-color: $pinwheel-red;
+  }
+
+  .race-culture-games {
+    background-color: #33cc99;
+  }
+
+  .player-agency-mods-glitches {
+    background-color: $pinwheel-green;
+  }
+
+  .video-games-in-latin-america {
+    background-color: $pinwheel-yellow;
+    color: black;
+  }
+
+  .video-games-and-indigenous-culture {
+    background-color: #ff9900;
+  }
+
+  .participatory-game-design {
+    background-color: #252c45;
+  }
+
+  .accessible-game-design {
+    background-color: $pinwheel-blue;
+  }
+
+  .general {
+    background-color: $pinwheel-off-white;
+    color: $pinwheel-dark-blue;
   }
 
   .session-title {
