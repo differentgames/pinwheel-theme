@@ -23,11 +23,11 @@
     font-size:2em;
   }
 
-  th {
+  th, .panel-heading {
     background-color: $pinwheel-blue;
     color: white;
   }
-  
+
   .time-listing {
     font-weight: normal;
   }
