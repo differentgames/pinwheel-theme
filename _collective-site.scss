@@ -1,7 +1,7 @@
 @import 'mixins';
 
 .pw-banner {
-  background-image: 
+  background-image:
     url("/images/banner_pattern.png"),
     url("/images/texture.png");
 
@@ -41,6 +41,26 @@
 
 .blurb.pw-post-title {
   margin-bottom: 0.5em;
+}
+
+.dear-games-link, .inclusivity-statement-link, .conference-link {
+  margin: 50px;
+  a {
+    text-align: center;
+    display: block;
+    background: $pinwheel-blue;
+    padding: 20px;
+    color: white;
+    transition: linear 0.2s all;
+
+    &:hover {
+      background: $pinwheel-dark-blue;
+    }
+  }
+}
+
+.img-charis {
+  width: 100%;
 }
 
 .ambassdors-header, .ambassadors-text { margin: 3em 0;}
