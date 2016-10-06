@@ -13,22 +13,44 @@
 }
 
 .pw-banner {
-  color: #60a2bf;
+  color: white;
+
 
   .banner-dgc-title {
-    background: $pinwheel-yellow;
+    text-transform: capitalize;
+    font-size: 2.75em;
+    background: $pinwheel-blue;
+    display: inline-block;
+  }
+
+  .title-emoji {
+    color: $pinwheel-red;
   }
 
   .tagline {
     width:60%;
-    background: $pinwheel-yellow;
+    background: $pinwheel-blue;
     text-transform: lowercase;
     display: inline-block;
     padding: 5px;
   }
 
   &.conf {
-    border-bottom: 10px solid $pinwheel-yellow;
+    border-bottom: 10px solid $pinwheel-dark-blue;
+  }
+}
+
+.above-navbar {
+  border-top: 10px solid $pinwheel-red;
+  display:block;
+}
+
+.pw-footer {
+  border-top: 10px solid $pinwheel-red;
+  background-color: $pinwheel-dark-blue;
+
+  li {
+    border-bottom-color: $pinwheel-blue;
   }
 }
 

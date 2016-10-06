@@ -107,6 +107,7 @@ hr {
 .pw-btn {
   background-color: $pinwheel-green;
   color: white;
+  white-space: initial;
   border-radius: 0px;
   opacity: 1;
   transition: .2s ease-in all;
@@ -122,3 +123,8 @@ hr {
   margin:2em auto;
 }
 
+cite.citation {
+  display: block;
+  text-align: right;
+  color: lightgray;
+}

@@ -1,0 +1,113 @@
+.schedule-controls {
+  text-align: center;
+  padding: 2em;
+
+  .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+    background-color: $pinwheel-dark-blue;
+  }
+}
+
+.show-talks-label {
+  margin-right: 1em;
+}
+
+.full-schedule-btn {
+  display: block;
+  font-weight: bold;
+}
+
+.schedule-at-a-glance {
+
+  h3 {
+    font-weight: bolder;
+    font-size:2em;
+  }
+
+  th, .panel-heading {
+    background-color: $pinwheel-blue;
+    color: white;
+  }
+
+  .time-listing {
+    font-weight: normal;
+  }
+
+  .session-link {
+    color: $pinwheel-dark-blue;
+    font-weight: bold;
+    border-bottom: 1px dotted $pinwheel-dark-blue;
+    transition: border-bottom-style 1s linear;
+  }
+
+  .session-link:hover {
+    border-bottom-style: solid;
+  }
+
+  .listed-talk {
+    font-size: 0.5em;
+  }
+}
+
+.full-schedule {
+
+  hr {
+    background: lightgray;
+  }
+
+  .session {
+    margin: 4em auto;
+  }
+
+  .session-time, .session-room,
+  .affective-play, .race-culture-games, .player-agency-mods-glitches, .video-games-in-latin-america, .video-games-and-indigenous-culture, .participatory-game-design, .accessible-game-design, .general  {
+    display: inline-block;
+    background-color: $pinwheel-dark-blue;
+    padding: 0.45em 0.5em;
+    color: white;
+    font-size:1em;
+    margin: 0;
+    border: 2px solid $pinwheel-dark-blue;
+
+  }
+
+  .affective-play {
+    background-color: $pinwheel-red;
+  }
+
+  .race-culture-games {
+    background-color: #33cc99;
+  }
+
+  .player-agency-mods-glitches {
+    background-color: $pinwheel-green;
+  }
+
+  .video-games-in-latin-america {
+    background-color: $pinwheel-yellow;
+    color: black;
+  }
+
+  .video-games-and-indigenous-culture {
+    background-color: #ff9900;
+  }
+
+  .participatory-game-design {
+    background-color: #252c45;
+  }
+
+  .accessible-game-design {
+    background-color: $pinwheel-blue;
+  }
+
+  .general {
+    background-color: $pinwheel-off-white;
+    color: $pinwheel-dark-blue;
+  }
+
+  .session-title {
+    font-weight: bolder;
+  }
+
+  .talk-content {
+  }
+}
