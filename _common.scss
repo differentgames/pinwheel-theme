@@ -75,6 +75,12 @@ hr {
   h2 {
     @include nice-blue-header;
   }
+
+  h3 {
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
 }
 
 .pw-masthead {
